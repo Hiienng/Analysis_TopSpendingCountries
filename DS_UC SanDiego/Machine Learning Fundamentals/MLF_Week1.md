@@ -4,7 +4,8 @@ Road map of the course:
 - Reresentation: Clustering, projecction, dictionary, autoencoder
 - Deep learning
 
-## Week 1: Introduction: nearest neighbor, and a host of prediction problems
+# Week 1: Introduction: nearest neighbor, and a host of prediction problems
+## MNIST
 ### Accuracy of nearest neighbor on MNIST
 - Training error: is an overly optimistic predictor of the future performance
 - Test error: fraction of test points incorrectly classified
@@ -16,7 +17,7 @@ Road map of the course:
     - k = 1 : test error% 3.09
     - k = 3 : test error% 2.94
     - k = 5 : test error% 3.13
-### LOOCV - Leave-one-out cross-validation
+## LOOCV - Leave-one-out cross-validation
 - LOOCV là một phương pháp cross-validation thường được sử dụng để đánh giá một thuật toán học máy. Trong phương pháp này, ta sẽ xây dựng một mô hình trên tất cả các điểm dữ liệu ngoại trừ một điểm, sau đó sử dụng mô hình này để dự đoán nhãn cho điểm bị loại bỏ. Quá trình này được lặp lại cho tất cả các điểm dữ liệu, và ta tính tỷ lệ các dự đoán sai như một ước lượng cho tỷ lệ lỗi của thuật toán.
 - k-NN - k-nearest neighbors: dựa trên việc xác định k điểm gần nhất (theo một khoảng cách được xác định trước) đến điểm dữ liệu đang xét, và sử dụng các nhãn của các điểm này để dự đoán nhãn của điểm đang xét. Thuật toán này thường được sử dụng cho các bài toán phân loại, nhưng cũng có thể được sử dụng cho các bài toán hồi quy
 
@@ -45,8 +46,8 @@ We decide to use 4-fold cross-validation to figure out the right value of  to ch
 - L2 norm => ||x||2 = sqrt(1^2 + 2^2 + 3^2 + 4^2) = sqrt(30)
 - L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
 
-### 1.4 Useful Distance Functions for Machine Learning
-#### Mesuaring distance in Rm 
+## 1.4 Distance Functions for Machine Learning
+### Mesuaring distance in Rm 
 For P>=1 , lP distance:
 
     〖∥x- z∥〗_p  =〖( ∑_(i=1)^m▒〖    〖(xi- zi)〗^p  〗  )〗^(1/p)
@@ -62,12 +63,12 @@ P = ∞,
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231709771-d14f5a52-4352-4176-88f8-1d2b5b50e813.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231711947-5b59a54f-184f-4727-9218-6f63570ab566.png">
 
-##### Metric Space
+#### Metric Space
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231720483-de691fe2-d81e-47ec-b67f-6a6f580e16d3.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231722913-c3c5fedd-e666-4f11-bce4-4f181527b558.png">
 
-#### Distance Function
+### Distance Function
 - Example: d(x,y) = # section, deletion, subsitution to get from x to y => yes, this is metric space
 - Edit distance:
     - Edit distance là số lần các phép chèn, xóa hoặc thay thế một ký tự cần thiết để chuyển đổi một chuỗi thành chuỗi khác. Ví dụ, để chuyển đổi từ "dog" thành "cat", ta có thể thực hiện các phép thay thế "d" thành "c" và "g" thành "t", hoặc chèn "c" và "a" và xóa "o" và "g". Edit distance của hai chuỗi này là 3.
@@ -79,11 +80,11 @@ P = ∞,
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231732478-70b86de6-e5cc-4039-8356-76dbac4d23d3.png">
 
-### 1.5 A Host of Prediction Problems
+## 1.5 A Host of Prediction Problems
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231734330-8d1a6edd-3540-4cf0-8d32-7c216f77602b.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231735072-64d7c1a1-dea7-4682-bf91-110a35906fe3.png">
 
-### Algorithm
+## Algorithm
 - The difference between algorithms and machine learning
 **IT IS TRUE THAT **A key difference between algorithms and machine learning is that an algorithm designer provides a clearly defined process for mapping an input to an output, whereas a person designing a classifier does not need to provide a clearly defined process for mapping inputs to outputs.
 - Discrete: rời rạc
