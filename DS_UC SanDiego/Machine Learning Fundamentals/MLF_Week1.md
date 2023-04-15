@@ -80,6 +80,22 @@ For the purposes of nearest neighbor computations, the two are equivalent: for t
 
 Now we just need to be able to compute squared Euclidean distance. The following function does so.
 
+    ## Computes squared Euclidean distance between two vectors.
+    def squared_dist(x,y):
+        return np.sum(np.square(x-y))
+
+    ## Compute distance between a seven and a one in our training set.
+    print("Distance from 7 to 1: ", squared_dist(train_data[4,],train_data[5,]))
+
+    ## Compute distance between a seven and a two in our training set.
+    print("Distance from 7 to 2: ", squared_dist(train_data[4,],train_data[1,]))
+
+    ## Compute distance between two seven's in our training set.
+    print("Distance from 7 to 7: ", squared_dist(train_data[4,],train_data[7,]))
+Results:
+Distance from 7 to 1:  5357193.0
+Distance from 7 to 2:  12451684.0
+Distance from 7 to 7:  5223403.0
 
 
 ## LOOCV - Leave-one-out cross-validation
