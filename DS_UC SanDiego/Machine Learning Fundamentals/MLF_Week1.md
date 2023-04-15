@@ -6,6 +6,8 @@ Road map of the course:
 
 # Week 1: Introduction: nearest neighbor, and a host of prediction problems
 ## MNIST
+`MNIST` is a classic dataset in machine learning, consisting of 28x28 gray-scale images handwritten digits. The original training set contains 60,000 examples and the test set contains 10,000 examples. In this notebook we will be working with a subset of this data: a training set of 7,500 examples and a test set of 1,000 examples.
+
 ### Accuracy of nearest neighbor on MNIST
 - Training error: is an overly optimistic predictor of the future performance
 - Test error: fraction of test points incorrectly classified
@@ -17,6 +19,8 @@ Road map of the course:
     - k = 1 : test error% 3.09
     - k = 3 : test error% 2.94
     - k = 5 : test error% 3.13
+### Excercise
+
 ## LOOCV - Leave-one-out cross-validation
 - LOOCV là một phương pháp cross-validation thường được sử dụng để đánh giá một thuật toán học máy. Trong phương pháp này, ta sẽ xây dựng một mô hình trên tất cả các điểm dữ liệu ngoại trừ một điểm, sau đó sử dụng mô hình này để dự đoán nhãn cho điểm bị loại bỏ. Quá trình này được lặp lại cho tất cả các điểm dữ liệu, và ta tính tỷ lệ các dự đoán sai như một ước lượng cho tỷ lệ lỗi của thuật toán.
 - **Example**: 4-fold cross-validation
@@ -40,7 +44,7 @@ Road map of the course:
   - L2 norm => ||x||2 = sqrt(1^2 + 2^2 + 3^2 + 4^2) = sqrt(30)
   - L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
 
-### k-NN
+## k-NN
 - k-NN - k-nearest neighbors: dựa trên việc xác định k điểm gần nhất (theo một khoảng cách được xác định trước) đến điểm dữ liệu đang xét, và sử dụng các nhãn của các điểm này để dự đoán nhãn của điểm đang xét. Thuật toán này thường được sử dụng cho các bài toán phân loại, nhưng cũng có thể được sử dụng cho các bài toán hồi quy
 - **Excercise**:
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231743942-7fa4d623-d750-4afd-ba38-4ece5e6f0cf9.png">
