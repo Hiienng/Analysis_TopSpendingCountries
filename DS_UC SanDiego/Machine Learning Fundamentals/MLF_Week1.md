@@ -107,10 +107,10 @@ Now we just need to be able to compute squared Euclidean distance. The following
 
 ## 1.4 Distance Functions for Machine Learning
 ### Mesuaring distance in Rm 
-For P>=1 , lP distance:
+For P>=1 , `l_p` distance:
 
     〖∥x- z∥〗_p  =〖( ∑_(i=1)^m▒〖    〖(xi- zi)〗^p  〗  )〗^(1/p)
-$$\|x - y\|_p = {\sum_{i=1}^d (x_i - y_i)^p}^(1/p).$$
+$$\|x - y\|_p = {(\sum_{i=1}^m {{(x_i - y_i)}^p})}^(1/p).$$
 
 P = 2, Euclidean distance 
 $$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
