@@ -1,7 +1,7 @@
 # Machine Learning Fundamentals
 Road map of the course:
 - Prediction: Classification, regression, probability estimation
-- Reresentation: Clustering, proẹction, dictionary, autoencoder
+- Reresentation: Clustering, projecction, dictionary, autoencoder
 - Deep learning
 
 ## Week 1: Introduction: nearest neighbor, and a host of prediction problems
@@ -82,6 +82,17 @@ P = ∞,
 ### 1.5 A Host of Prediction Problems
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231734330-8d1a6edd-3540-4cf0-8d32-7c216f77602b.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231735072-64d7c1a1-dea7-4682-bf91-110a35906fe3.png">
+
+### Algorithm
+- The difference between algorithms and machine learning
+**IT IS TRUE THAT **A key difference between algorithms and machine learning is that an algorithm designer provides a clearly defined process for mapping an input to an output, whereas a person designing a classifier does not need to provide a clearly defined process for mapping inputs to outputs.
+- Discrete: rời rạc
+- Các mô hình:
+  - Classification: Phân loại, output space của class là rời rạc (descreate)
+  - Regression: output space của re là liên tục (Continuous)
+  - Probability estimation output space của pro là Probability Values as value in [0,1]
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232182707-182dab73-dda6-4dc8-a7a3-7dd68c80b17f.png">
+
 
 ## Week 2: Probability basics and generative modeling
 
