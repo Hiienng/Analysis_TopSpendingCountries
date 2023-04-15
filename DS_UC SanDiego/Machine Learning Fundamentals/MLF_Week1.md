@@ -19,10 +19,8 @@ Road map of the course:
     - k = 5 : test error% 3.13
 ## LOOCV - Leave-one-out cross-validation
 - LOOCV là một phương pháp cross-validation thường được sử dụng để đánh giá một thuật toán học máy. Trong phương pháp này, ta sẽ xây dựng một mô hình trên tất cả các điểm dữ liệu ngoại trừ một điểm, sau đó sử dụng mô hình này để dự đoán nhãn cho điểm bị loại bỏ. Quá trình này được lặp lại cho tất cả các điểm dữ liệu, và ta tính tỷ lệ các dự đoán sai như một ước lượng cho tỷ lệ lỗi của thuật toán.
-- k-NN - k-nearest neighbors: dựa trên việc xác định k điểm gần nhất (theo một khoảng cách được xác định trước) đến điểm dữ liệu đang xét, và sử dụng các nhãn của các điểm này để dự đoán nhãn của điểm đang xét. Thuật toán này thường được sử dụng cho các bài toán phân loại, nhưng cũng có thể được sử dụng cho các bài toán hồi quy
-
-#### 4-fold cross-validation
-We decide to use 4-fold cross-validation to figure out the right value of  to choose when running -nearest neighbor on a data set of size 10,000. When checking a particular value of , we look at four different training sets. What is the size of each of these training sets?
+- **Example**: 4-fold cross-validation
+  - We decide to use 4-fold cross-validation to figure out the right value of  to choose when running -nearest neighbor on a data set of size 10,000. When checking a particular value of , we look at four different training sets. What is the size of each of these training sets?
 
 - To determine the size of each training set, we need to first calculate the size of each fold:
     - Size of each fold = Total size of data set / Number of folds
@@ -36,15 +34,18 @@ We decide to use 4-fold cross-validation to figure out the right value of  to ch
 
 - Therefore, the size of each training set is 7,500, and the size of the validation set is 2,500 in 4-fold cross-validation.
 
-#### Exercise
+- **Exercise**: 
+- x = (1,2,3,4) in R4. Compute below:
+  - L1 norm => ||x||1 = |1| + |2| + |3| + |4| = 1 + 2 + 3 + 4 = 10
+  - L2 norm => ||x||2 = sqrt(1^2 + 2^2 + 3^2 + 4^2) = sqrt(30)
+  - L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
+
+### k-NN
+- k-NN - k-nearest neighbors: dựa trên việc xác định k điểm gần nhất (theo một khoảng cách được xác định trước) đến điểm dữ liệu đang xét, và sử dụng các nhãn của các điểm này để dự đoán nhãn của điểm đang xét. Thuật toán này thường được sử dụng cho các bài toán phân loại, nhưng cũng có thể được sử dụng cho các bài toán hồi quy
+- **Excercise**:
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231743942-7fa4d623-d750-4afd-ba38-4ece5e6f0cf9.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231747621-cc115035-fb8c-4017-9919-265017fe503a.png">
 
-
-### x = (1,2,3,4) in R4. Compute below:
-- L1 norm => ||x||1 = |1| + |2| + |3| + |4| = 1 + 2 + 3 + 4 = 10
-- L2 norm => ||x||2 = sqrt(1^2 + 2^2 + 3^2 + 4^2) = sqrt(30)
-- L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
 
 ## 1.4 Distance Functions for Machine Learning
 ### Mesuaring distance in Rm 
