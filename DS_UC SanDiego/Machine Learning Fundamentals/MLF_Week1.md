@@ -98,14 +98,6 @@ Now we just need to be able to compute squared Euclidean distance. The following
     - Size of each training set = 7,500
 
 - Therefore, the size of each training set is 7,500, and the size of the validation set is 2,500 in 4-fold cross-validation.
-
-- **Exercise**: 
-- x = (1,2,3,4) in R4. Compute below:
-  - L1 norm => ||x||1 = |1| + |2| + |3| + |4| = 1 + 2 + 3 + 4 = 10
-  - L2 norm => Squared Euclidean distance
-  $$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
-  - L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
-
 ## k-NN
 - k-NN - k-nearest neighbors: dựa trên việc xác định k điểm gần nhất (theo một khoảng cách được xác định trước) đến điểm dữ liệu đang xét, và sử dụng các nhãn của các điểm này để dự đoán nhãn của điểm đang xét. Thuật toán này thường được sử dụng cho các bài toán phân loại, nhưng cũng có thể được sử dụng cho các bài toán hồi quy
 - **Excercise**:
@@ -118,10 +110,11 @@ Now we just need to be able to compute squared Euclidean distance. The following
 For P>=1 , lP distance:
 
     〖∥x- z∥〗_p  =〖( ∑_(i=1)^m▒〖    〖(xi- zi)〗^p  〗  )〗^(1/p)
-    
-P = 2, Euclidean distance 
+$$\|x - y\|_p = {sum_{i=1}^d (x_i - y_i)^2}.$$
 
-     〖∥x- z∥〗_2  =√(∑_(i=1)^m▒〖    〖(xi- zi)〗^2  〗)
+P = 2, Euclidean distance 
+$$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
+
 P = ∞,
 
     〖∥x- z∥〗_∞     = max_i⁡|x_i-z_i|
@@ -129,6 +122,13 @@ P = ∞,
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231709216-73f1117e-ed75-4b54-8684-093394df7d82.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231709771-d14f5a52-4352-4176-88f8-1d2b5b50e813.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/231711947-5b59a54f-184f-4727-9218-6f63570ab566.png">
+
+- **Exercise**: 
+- x = (1,2,3,4) in R4. Compute below:
+  - L1 norm => ||x||1 = |1| + |2| + |3| + |4| = 1 + 2 + 3 + 4 = 10
+  - L2 norm => Squared Euclidean distance
+  $$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
+  - L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
 
 #### Metric Space
 
