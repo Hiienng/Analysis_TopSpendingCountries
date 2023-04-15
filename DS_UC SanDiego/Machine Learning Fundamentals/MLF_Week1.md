@@ -92,16 +92,3 @@ P = ∞,
   - Regression: output space của re là liên tục (Continuous)
   - Probability estimation output space của pro là Probability Values as value in [0,1]
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232182707-182dab73-dda6-4dc8-a7a3-7dd68c80b17f.png">
-
-
-## Week 2: Probability basics and generative modeling
-
-
-## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
-## Week 4: Linear regression and logistic regression
-## Week 5: Optimization
-## Week 6: Support vector machines
-## Week 7: Beyond linear prediction: kernel methods, decision trees, boosting, random forests
-## Week 8: Clustering
-## Week 9: Informative projections
-## Week 10: Deep learning
