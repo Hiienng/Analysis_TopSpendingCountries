@@ -100,8 +100,8 @@ P = ∞,
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232182707-182dab73-dda6-4dc8-a7a3-7dd68c80b17f.png">
 
 
-### Excercise
-1.Exploring and spliting the dataset
+## Excercise 1
+### 1.Exploring and spliting the dataset
 
     %matplotlib inline
     import numpy as np
@@ -152,7 +152,7 @@ Number of testing labels:  1000
     ## Now view the first data point in the test set
     vis_image(0, "test")
 
-2.Squared Euclidean distance
+### 2.Squared Euclidean distance
 
 To compute nearest neighbors in our data set, we need to first be able to compute distances between data points. A natural distance function is _Euclidean distance_: for two vectors $x, y \in \mathbb{R}^d$, their Euclidean distance is defined as 
 $$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
@@ -200,7 +200,7 @@ Distance from 7 to 7:  5223403.0
     print("- The test image:", vis_image(0, "test"))
     print("The corresponding nearest neighbor image:", vis_image(find_NN(test_data[0,]), "train"))
 
-3.Error rate
+### 3.Error rate
 
     ## Predict on each test data point (and time it!)
     t_before = time.time()
@@ -217,3 +217,8 @@ Distance from 7 to 7:  5223403.0
 Result:
 / Error of nearest neighbor classifier:  0.046
 / Classification time (seconds):  49.7419490814209
+
+## Excercise 2: Nearest neighbor spine
+
+
+
