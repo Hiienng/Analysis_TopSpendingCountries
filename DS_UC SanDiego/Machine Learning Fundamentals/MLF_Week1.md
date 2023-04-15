@@ -102,7 +102,8 @@ Now we just need to be able to compute squared Euclidean distance. The following
 - **Exercise**: 
 - x = (1,2,3,4) in R4. Compute below:
   - L1 norm => ||x||1 = |1| + |2| + |3| + |4| = 1 + 2 + 3 + 4 = 10
-  - L2 norm => ||x||2 = sqrt(1^2 + 2^2 + 3^2 + 4^2) = sqrt(30)
+  - L2 norm => Squared Euclidean distance
+  $$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
   - L-infinity norm => ||x||infinity = max{|1|, |2|, |3|, |4|} = 4
 
 ## k-NN
