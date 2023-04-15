@@ -19,84 +19,6 @@ Road map of the course:
     - k = 1 : test error% 3.09
     - k = 3 : test error% 2.94
     - k = 5 : test error% 3.13
-### Excercise
-1.Exploring the dataset
-
-    %matplotlib inline
-    import numpy as np
-    import matplotlib.pyplot as plt 
-    import time
-
-    ## Load the training set
-    train_data = np.load('MNIST/train_data.npy')
-    train_labels = np.load('MNIST/train_labels.npy')
-
-    ## Load the testing set
-    test_data = np.load('MNIST/test_data.npy')
-    test_labels = np.load('MNIST/test_labels.npy')
-    
-    ## Print out their dimensions
-    print("Training dataset dimensions: ", np.shape(train_data))
-    print("Number of training labels: ", len(train_labels))
-    print("Testing dataset dimensions: ", np.shape(test_data))
-    print("Number of testing labels: ", len(test_labels))
-    
-Result: 
-Training dataset dimensions:  (7500, 784)
-Number of training labels:  7500
-Testing dataset dimensions:  (1000, 784)
-Number of testing labels:  1000
-
-    ## Define a function that displays a digit given its vector representation
-    def show_digit(x):
-        plt.axis('off')
-        plt.imshow(x.reshape((28,28)), cmap=plt.cm.gray)
-        plt.show()
-        return
-
-    ## Define a function that takes an index into a particular data set ("train" or "test") and displays that image.
-    def vis_image(index, dataset="train"):
-        if(dataset=="train"): 
-            show_digit(train_data[index,])
-            label = train_labels[index]
-        else:
-            show_digit(test_data[index,])
-            label = test_labels[index]
-        print("Label " + str(label))
-        return
-
-    ## View the first data point in the training set
-    vis_image(0, "train")
-
-    ## Now view the first data point in the test set
-    vis_image(0, "test")
-2.Squared Euclidean distance
-
-To compute nearest neighbors in our data set, we need to first be able to compute distances between data points. A natural distance function is _Euclidean distance_: for two vectors $x, y \in \mathbb{R}^d$, their Euclidean distance is defined as 
-$$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
-Often we omit the square root, and simply compute _squared Euclidean distance_:
-$$\|x - y\|^2 = \sum_{i=1}^d (x_i - y_i)^2.$$
-For the purposes of nearest neighbor computations, the two are equivalent: for three vectors $x, y, z \in \mathbb{R}^d$, we have $\|x - y\| \leq \|x - z\|$ if and only if $\|x - y\|^2 \leq \|x - z\|^2$.
-
-Now we just need to be able to compute squared Euclidean distance. The following function does so.
-
-    ## Computes squared Euclidean distance between two vectors.
-    def squared_dist(x,y):
-        return np.sum(np.square(x-y))
-
-    ## Compute distance between a seven and a one in our training set.
-    print("Distance from 7 to 1: ", squared_dist(train_data[4,],train_data[5,]))
-
-    ## Compute distance between a seven and a two in our training set.
-    print("Distance from 7 to 2: ", squared_dist(train_data[4,],train_data[1,]))
-
-    ## Compute distance between two seven's in our training set.
-    print("Distance from 7 to 7: ", squared_dist(train_data[4,],train_data[7,]))
-Results:
-Distance from 7 to 1:  5357193.0
-Distance from 7 to 2:  12451684.0
-Distance from 7 to 7:  5223403.0
-
 
 ## LOOCV - Leave-one-out cross-validation
 - LOOCV là một phương pháp cross-validation thường được sử dụng để đánh giá một thuật toán học máy. Trong phương pháp này, ta sẽ xây dựng một mô hình trên tất cả các điểm dữ liệu ngoại trừ một điểm, sau đó sử dụng mô hình này để dự đoán nhãn cho điểm bị loại bỏ. Quá trình này được lặp lại cho tất cả các điểm dữ liệu, và ta tính tỷ lệ các dự đoán sai như một ước lượng cho tỷ lệ lỗi của thuật toán.
@@ -176,3 +98,122 @@ P = ∞,
   - Regression: output space của re là liên tục (Continuous)
   - Probability estimation output space của pro là Probability Values as value in [0,1]
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232182707-182dab73-dda6-4dc8-a7a3-7dd68c80b17f.png">
+
+
+### Excercise
+1.Exploring and spliting the dataset
+
+    %matplotlib inline
+    import numpy as np
+    import matplotlib.pyplot as plt 
+    import time
+
+    ## Load the training set
+    train_data = np.load('MNIST/train_data.npy')
+    train_labels = np.load('MNIST/train_labels.npy')
+
+    ## Load the testing set
+    test_data = np.load('MNIST/test_data.npy')
+    test_labels = np.load('MNIST/test_labels.npy')
+    
+    ## Print out their dimensions
+    print("Training dataset dimensions: ", np.shape(train_data))
+    print("Number of training labels: ", len(train_labels))
+    print("Testing dataset dimensions: ", np.shape(test_data))
+    print("Number of testing labels: ", len(test_labels))
+    
+Result: 
+Training dataset dimensions:  (7500, 784)
+Number of training labels:  7500
+Testing dataset dimensions:  (1000, 784)
+Number of testing labels:  1000
+
+    ## Define a function that displays a digit given its vector representation
+    def show_digit(x):
+        plt.axis('off')
+        plt.imshow(x.reshape((28,28)), cmap=plt.cm.gray)
+        plt.show()
+        return
+
+    ## Define a function that takes an index into a particular data set ("train" or "test") and displays that image.
+    def vis_image(index, dataset="train"):
+        if(dataset=="train"): 
+            show_digit(train_data[index,])
+            label = train_labels[index]
+        else:
+            show_digit(test_data[index,])
+            label = test_labels[index]
+        print("Label " + str(label))
+        return
+
+    ## View the first data point in the training set
+    vis_image(0, "train")
+
+    ## Now view the first data point in the test set
+    vis_image(0, "test")
+
+2.Squared Euclidean distance
+
+To compute nearest neighbors in our data set, we need to first be able to compute distances between data points. A natural distance function is _Euclidean distance_: for two vectors $x, y \in \mathbb{R}^d$, their Euclidean distance is defined as 
+$$\|x - y\| = \sqrt{\sum_{i=1}^d (x_i - y_i)^2}.$$
+Often we omit the square root, and simply compute _squared Euclidean distance_:
+$$\|x - y\|^2 = \sum_{i=1}^d (x_i - y_i)^2.$$
+For the purposes of nearest neighbor computations, the two are equivalent: for three vectors $x, y, z \in \mathbb{R}^d$, we have $\|x - y\| \leq \|x - z\|$ if and only if $\|x - y\|^2 \leq \|x - z\|^2$.
+
+Now we just need to be able to compute squared Euclidean distance. The following function does so.
+
+    ## Computes squared Euclidean distance between two vectors.
+    def squared_dist(x,y):
+        return np.sum(np.square(x-y))
+
+    ## Compute distance between a seven and a one in our training set.
+    print("Distance from 7 to 1: ", squared_dist(train_data[4,],train_data[5,]))
+
+    ## Compute distance between a seven and a two in our training set.
+    print("Distance from 7 to 2: ", squared_dist(train_data[4,],train_data[1,]))
+
+    ## Compute distance between two seven's in our training set.
+    print("Distance from 7 to 7: ", squared_dist(train_data[4,],train_data[7,]))
+Results:
+Distance from 7 to 1:  5357193.0
+Distance from 7 to 2:  12451684.0
+Distance from 7 to 7:  5223403.0
+
+    ## Takes a vector x and returns the index of its nearest neighbor in train_data
+    def find_NN(x):
+        # Compute distances from x to every row in train_data
+        distances = [squared_dist(x,train_data[i,]) for i in range(len(train_labels))]
+        # Get the index of the smallest distance
+        return np.argmin(distances)
+
+    ## Takes a vector x and returns the class of its nearest neighbor in train_data
+    def NN_classifier(x):
+        # Get the index of the the nearest neighbor
+        index = find_NN(x)
+        # Return its class
+        return train_labels[index]
+
+    ## A success case:
+    print("A success case:")
+    print("- NN classification: ", NN_classifier(test_data[0,]))
+    print("- True label: ", test_labels[0])
+    print("- The test image:", vis_image(0, "test"))
+    print("The corresponding nearest neighbor image:", vis_image(find_NN(test_data[0,]), "train"))
+
+3.Error rate
+
+    ## Predict on each test data point (and time it!)
+    t_before = time.time()
+    test_predictions = [NN_classifier(test_data[i,]) for i in range(len(test_labels))]
+    t_after = time.time()
+
+    ## Compute the error
+    err_positions = np.not_equal(test_predictions, test_labels)
+    error = float(np.sum(err_positions))/len(test_labels)
+
+    print("Error of nearest neighbor classifier: ", error)
+    print("Classification time (seconds): ", t_after - t_before)
+    
+Result:
+/ Error of nearest neighbor classifier:  0.046
+/ Classification time (seconds):  49.7419490814209
