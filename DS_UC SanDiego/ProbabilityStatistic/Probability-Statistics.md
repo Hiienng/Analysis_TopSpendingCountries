@@ -19,7 +19,7 @@
 - Regression
 - Sampling, parameter estimation, and confidence intervals
 - Hypothesis testing
-## 1: Introduction to Probability and Statistics
+## Topic 1: Introduction to Probability and Statistics
 ### 1.1 Introduction to Probability and Statistics
 - Probability: tossing dice.
 - Statistics: keeping scores in baseball.
@@ -62,4 +62,17 @@ Which of the following describe the differences between probability and statisti
 
 ### 1.4 A Puzzle
 
+## Topic 2: Sets
+### 2.1 Notation
+#### Elements, sets, and membership - Phần tử, tập hợp
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232350214-8f519446-d8b7-4cea-b6f6-fb51a64b211f.png">
+
+Set within set:
+- Example:
+Set within set: <img width="210" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
+
+Set within set:
+- Singleton: is a single-element set <img width="100" alt="image" src="https://user-images.githubusercontent.com/89530538/232350826-e42507ee-10c1-44cb-acec-00ff1dd5a36f.png">
+ 
 
