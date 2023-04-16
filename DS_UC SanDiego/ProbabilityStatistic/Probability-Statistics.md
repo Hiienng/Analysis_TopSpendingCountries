@@ -70,9 +70,9 @@ Which of the following describe the differences between probability and statisti
 
 Set within set:
 - Example:
-Set within set: <img width="210" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
+Set within set: <img width="250" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
 
 Set within set:
-- Singleton: is a single-element set <img width="100" alt="image" src="https://user-images.githubusercontent.com/89530538/232350826-e42507ee-10c1-44cb-acec-00ff1dd5a36f.png">
+- Singleton: is a single-element set <img width="120" alt="image" src="https://user-images.githubusercontent.com/89530538/232350826-e42507ee-10c1-44cb-acec-00ff1dd5a36f.png">
  
 
