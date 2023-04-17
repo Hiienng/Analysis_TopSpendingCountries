@@ -74,7 +74,7 @@ Set within set: <img width="250" alt="image" src="https://user-images.githubuser
 
 Set within set:
 - Singleton: is a single-element set <img width="120" alt="image" src="https://user-images.githubusercontent.com/89530538/232350826-e42507ee-10c1-44cb-acec-00ff1dd5a36f.png">
-- Interger interval - Khoản số nguyên - {m...n} = {$i \in A$ | m <= i <=n } : interger from m to n, inclusive
+- Interger interval - Khoản số nguyên - {m...n} = {i ∈ ℝ | m <= i <=n } : interger from m to n, inclusive
 - 
  
 
