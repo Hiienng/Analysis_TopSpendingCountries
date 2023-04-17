@@ -69,12 +69,17 @@ Which of the following describe the differences between probability and statisti
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232350214-8f519446-d8b7-4cea-b6f6-fb51a64b211f.png">
 
 Set within set:
-- Example: Set within set: <img width="260" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
+- Example: Set within set: <img width="290" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
 - Singleton: is a single-element set <img width="120" alt="image" src="https://user-images.githubusercontent.com/89530538/232350826-e42507ee-10c1-44cb-acec-00ff1dd5a36f.png">
 
 - Interger interval - Khoản số nguyên - {m...n} = {i ∈ ℝ | m <= i <=n } : interger from m to n, inclusive
 - Convention: [n] = {1, 2, ...n}
-- Real interval - Khoản số thực - <img width="290" alt="image" src="https://user-images.githubusercontent.com/89530538/232351634-e35c754a-c6ae-44f2-bbec-676eed876caf.png">
+- Real interval - Khoản số thực - <img width="350" alt="image" src="https://user-images.githubusercontent.com/89530538/232351634-e35c754a-c6ae-44f2-bbec-676eed876caf.png"> with 3 in set and 5 not in set
+- Divisibility with i ∈ ℤ <img width="350" alt="image" src="https://user-images.githubusercontent.com/89530538/232351890-4d076d31-2be7-4c86-bf32-c03173fe7c70.png"> <img width="200" alt="image" src="https://user-images.githubusercontent.com/89530538/232352103-dba97c69-6e9e-4c63-9a11-f78418e4d888.png"> <img width="200" alt="image" src="https://user-images.githubusercontent.com/89530538/232352131-c0a1af56-55e9-47ea-9207-bd86eca902d3.png"><img width="200" alt="image" src="https://user-images.githubusercontent.com/89530538/232352277-dd2c3121-1871-446f-97c2-166faf428d2d.png">
+
+
+
+
 
  
 
