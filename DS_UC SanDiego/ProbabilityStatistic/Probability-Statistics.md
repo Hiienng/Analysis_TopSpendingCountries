@@ -69,12 +69,12 @@ Which of the following describe the differences between probability and statisti
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232350214-8f519446-d8b7-4cea-b6f6-fb51a64b211f.png">
 
 Set within set:
-- Example:
-Set within set: <img width="250" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
-
-Set within set:
+- Example: Set within set: <img width="260" alt="image" src="https://user-images.githubusercontent.com/89530538/232350905-23e336e8-4bac-461a-ad77-11e4e5d74ffb.png">
 - Singleton: is a single-element set <img width="120" alt="image" src="https://user-images.githubusercontent.com/89530538/232350826-e42507ee-10c1-44cb-acec-00ff1dd5a36f.png">
+
 - Interger interval - Khoản số nguyên - {m...n} = {i ∈ ℝ | m <= i <=n } : interger from m to n, inclusive
-- 
+- Convention: [n] = {1, 2, ...n}
+- Real interval - Khoản số thực - <img width="290" alt="image" src="https://user-images.githubusercontent.com/89530538/232351634-e35c754a-c6ae-44f2-bbec-676eed876caf.png">
+
  
 
