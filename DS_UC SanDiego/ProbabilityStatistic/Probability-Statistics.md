@@ -77,10 +77,10 @@ Set within set:
 - Real interval - Khoản số thực - <img width="350" alt="image" src="https://user-images.githubusercontent.com/89530538/232351634-e35c754a-c6ae-44f2-bbec-676eed876caf.png"> with 3 in set and 5 not in set
 - Divisibility with i ∈ ℤ 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/89530538/232351890-4d076d31-2be7-4c86-bf32-c03173fe7c70.png"> 
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/89530538/232352103-dba97c69-6e9e-4c63-9a11-f78418e4d888.png"> 
-<img width="210" alt="image" src="https://user-images.githubusercontent.com/89530538/232352131-c0a1af56-55e9-47ea-9207-bd86eca902d3.png">
-<img width="210" alt="image" src="https://user-images.githubusercontent.com/89530538/232352277-dd2c3121-1871-446f-97c2-166faf428d2d.png">
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/89530538/232352103-dba97c69-6e9e-4c63-9a11-f78418e4d888.png"> <img width="210" alt="image" src="https://user-images.githubusercontent.com/89530538/232352131-c0a1af56-55e9-47ea-9207-bd86eca902d3.png"> <img width="210" alt="image" src="https://user-images.githubusercontent.com/89530538/232352277-dd2c3121-1871-446f-97c2-166faf428d2d.png">
 
+- Set multiple:
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232352571-4286b7b2-9331-4176-a2d0-869e6400674c.png">
 
 
 
