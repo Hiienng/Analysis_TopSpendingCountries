@@ -82,8 +82,72 @@ Set within set:
 - Set multiple:
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/232352571-4286b7b2-9331-4176-a2d0-869e6400674c.png">
 
+### PYTHON:
+`A\cup B : A.Union(B)`
+`A^c : U.difference(A)`
+`A\cap B: A.ontersection(B)`
+`A x B = set(itertools.product(A,B))`
+
+#### set 1: 
+De Morgan's first law states the following for any two sets $A$ and $B$.
+1.1 Write the function **complement_of_union** that first determines $A\cup B$ and then evaluates the complement of this set. Output the tuple: $\begin{pmatrix}A\cup B,\, (A\cup B)^c\end{pmatrix}$.
+
+        def complement_of_union(A, B, U):
+            union = A.union(B)
+            complement = U.difference(union)
+            return (union, complement)
+        A = {1, 2, 3, 4, 5}
+        B = {0, 2, -6, 5, 8, 9}
+        U = A|B|{-3, 7, 10, -4}
+        print(complement_of_union(A, B, U))
+Return ({0, 1, 2, 3, 4, 5, 8, 9, -6}, {10, -4, -3, 7})
 
 
+1.2 Write the function **intersection_of_complements** that first determines $A^c$ and $B^c$ and then evaluates the intersection of their complements. Output the tuple: $\begin{pmatrix}A^c, \,  A^c\cap B^c\end{pmatrix}$
 
- 
+        def intersection_of_complements(A, B, U):
+            Ac = U.difference(A)
+            Bc = U.difference(B)
+            AcBc = Ac.intersection(Bc)
+            return(Ac, AcBc)
+        A = {1, 2, 3}
+        B = {3, -6, 2, 0}
+        U = {-10, -9, -8, -7, -6, 0, 1, 2, 3, 4}
+        intersection_of_complements(A, B, U)
+Return: ({-10, -9, -8, -7, -6, 0, 4}, {-10, -9, -8, -7, 4})
+
+2.1  Write function **product_of_unions** that first determines $(A\cup B)$ and $(S\cup T)$ and then evaluates the cartesian products of these unions. Output the tuple $\begin{pmatrix}(A\cup B),\,  (A\cup B)\times(S\cup T)\end{pmatrix}$.
+        def product_of_unions(A, B, S, T):
+            ab = A.union(B)
+            st = S.union(T)
+            abst = set(itertools.product(ab,st))
+            return(ab, abst)
+
+        A = {5}
+        B = {5}
+        S = {-1, 0}
+        T = {0}
+        product_of_unions(A, B, S, T)            
+Return: ({5}, {(5, -1), (5, 0)})
+
+2.2 Write a function **union_of_products** that first determines $(A\times S)$ and the other three cartesian products that appear on the right hand side of the identity above, then evaluates the union of these cartesian products. Output the tuple $\begin{pmatrix}(A\times S),\,  (A\times S)\cup(A\times T)\cup(B\times S)\cup(B\times T)\end{pmatrix}$.
+
+        def union_of_products(A, B, S, T):
+            # inputs: A, B, S and T are sets
+            # output: a tuple of the type (set, set)
+            #
+            a_s = set(itertools.product(A,S))
+            a_t = set(itertools.product(A,T))
+            b_s = set(itertools.product(B,S))
+            b_t = set(itertools.product(B,T))
+            as_at_bs_bt = a_s.union(a_t, b_s, b_t)
+            return(a_s, as_at_bs_bt)
+        A = {5}
+        B = {5}
+        S = {-1, 0}
+        T = {0}
+        union_of_products(A, B, S, T)
+Return: ({(5, -1), (5, 0)}, {(5, -1), (5, 0)})
+
+
 
