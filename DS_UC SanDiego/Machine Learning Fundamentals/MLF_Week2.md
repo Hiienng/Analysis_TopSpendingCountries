@@ -21,10 +21,13 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233083367-09c7fc0d-7504-4f31-bd67-4391714a50fa.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233083574-39977a86-a395-4468-b782-4a6624bc144e.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233085190-ce0f2bde-9038-4a31-837b-feb1dc4978d4.png">
-- Explanation:
-  - The difference of their faces is 3: chênh lệch giá trị giữa hai mặt = 3
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233085538-da9c6e94-1dbb-4e8e-a408-de06410e5471.png">
+- Explanation: The difference of their faces is 3: chênh lệch giá trị giữa hai mặt = 3. Như vậy có 6 trường hợp trên 36 trường hợp có thể xảy ra
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233085538-da9c6e94-1dbb-4e8e-a408-de06410e5471.png">
 
+- Multiple events
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233092693-cc66e04e-e2d6-4a6c-b753-dbd066dd150e.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233093307-993efc0d-34d3-47eb-a7f4-c870a3ec965a.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233093745-e8a7ab51-7b09-48cd-bc9e-7c1a7edd22b8.png">
 
 
 ### 2.3 Generative Modeling in One Dimension
