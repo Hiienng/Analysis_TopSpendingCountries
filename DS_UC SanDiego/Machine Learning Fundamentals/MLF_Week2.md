@@ -24,6 +24,20 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233093307-993efc0d-34d3-47eb-a7f4-c870a3ec965a.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233095189-481c9ac3-0528-4f87-ab2b-a9159f1203c2.png">
 
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233100584-2c8dff55-8b93-4c4e-a977-56eace78bfaf.png">
+- Explanation: Đề bài yêu cầu tìm sác xuất lấy được túi Redx3 trong đó có 1 túi 3 banh đỏ (Redx3) và 2 túi loại 1 xanh dương, 1 đỏ, 1 xanh lá(non-Redx3). Biết trước rằng khi lấy 1 trái từ 1 túi random, sau đó bỏ trái banh ấy vào lại túi rồi lấy một quả random ra, và hai quả này đều màu đỏ.
+    - Giải đề bài theo phương pháp Baye's Rules
+        - A: Sự kiện lấy được túi Redx3
+        - B: Sự kiện hai quả banh đỏ được lấy ra
+        - Xác suất lấy được túi Redx3: P(A\cup B) = 1/3
+        - Xác suất tất cả sự kiện : P(All) = P(Redx3, 2 Red balls) + P(non-Redx3, 2 Red balls) = 1/3 x 1 + 2/3 x (1/3 x 1/3) = 0.818
+    - Giải theo cách khác
+        - Let the event of red balls be E.
+            - The probability of 2 red balls from first non-redx3 bag is  1/3 x 1/3 = 1/9
+            - The probability of 2 red balls from second non-redx3 bag is 1/9 
+            - The probability of 2 red balls from Redx3 bag is 1 
+        - ![image](https://user-images.githubusercontent.com/89530538/233121620-19d19bf2-1b57-451f-aac8-bfe057deeef0.png)
+
 
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233081653-aacecbd0-16f4-446e-8e4c-33f5047eca2c.png">
