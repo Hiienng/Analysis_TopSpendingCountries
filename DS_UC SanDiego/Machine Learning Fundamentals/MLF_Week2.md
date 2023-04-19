@@ -11,13 +11,13 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233081030-1004e011-cc27-4b12-a187-65c0891676f2.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/89530538/233081470-c63425a6-ac70-4804-acf9-3d65e8660c44.png">
 
-
 - Events
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233081266-b935e919-be33-4a59-9e45-e1d59fe7f5bc.png">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/89530538/233081653-aacecbd0-16f4-446e-8e4c-33f5047eca2c.png">
-  - Explanation: If the first roll is a 6, then there are 6 possible outcomes for that roll (namely, rolling a 1, 2, 3, 4, 5, or 6). We need to determine the number of those outcomes that result in a sum of 10 when the second die is rolled.
-  - Out of the six possible outcomes for the first roll (which is a 6), only one of them results in a sum of 10 when the second die is rolled (namely, rolling a 4). Therefore, the probability of rolling a sum of 10 given that the first roll is a 6 is:
-  - P(sum is 10 | first roll is 6) = 1/6
+  - Explanation: 
+    - If the first roll is a 6, then there are 6 possible outcomes for that roll (namely, rolling a 1, 2, 3, 4, 5, or 6). We need to determine the number of those outcomes that result in a sum of 10 when the second die is rolled.
+    - Out of the six possible outcomes for the first roll (which is a 6), only one of them results in a sum of 10 when the second die is rolled (namely, rolling a 4). Therefore, the probability of rolling a sum of 10 given that the first roll is a 6 is:
+    - P(sum is 10 | first roll is 6) = 1/6
 
 - 
 
