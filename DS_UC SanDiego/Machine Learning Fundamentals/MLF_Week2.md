@@ -23,7 +23,7 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233085190-ce0f2bde-9038-4a31-837b-feb1dc4978d4.png">
 - Explanation:
   - The difference of their faces is 3: chênh lệch giá trị giữa hai mặt = 3
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/89530538/233085538-da9c6e94-1dbb-4e8e-a408-de06410e5471.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233085538-da9c6e94-1dbb-4e8e-a408-de06410e5471.png">
 
 
 
