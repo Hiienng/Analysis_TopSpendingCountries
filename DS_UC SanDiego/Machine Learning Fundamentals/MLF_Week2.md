@@ -20,6 +20,7 @@
 
 - Multiple events
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233093745-e8a7ab51-7b09-48cd-bc9e-7c1a7edd22b8.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233128455-f7227063-ab7f-435e-b1e5-494440773277.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233092693-cc66e04e-e2d6-4a6c-b753-dbd066dd150e.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233093307-993efc0d-34d3-47eb-a7f4-c870a3ec965a.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233095189-481c9ac3-0528-4f87-ab2b-a9159f1203c2.png">
@@ -36,8 +37,7 @@
             - The probability of 2 red balls from first non-redx3 bag is  1/3 x 1/3 = 1/9
             - The probability of 2 red balls from second non-redx3 bag is 1/9 
             - The probability of 2 red balls from Redx3 bag is 1 
-        - ![image](https://user-images.githubusercontent.com/89530538/233121620-19d19bf2-1b57-451f-aac8-bfe057deeef0.png)
-
+        - The bag with the 3 red balls is (1/3 x 1) / (1/3 x 1/9 + 1/3 x 1/9 + 1/3 x1) = 0.818
 
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233081653-aacecbd0-16f4-446e-8e4c-33f5047eca2c.png">
