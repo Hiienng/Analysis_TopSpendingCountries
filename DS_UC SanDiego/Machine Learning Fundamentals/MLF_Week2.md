@@ -1,7 +1,7 @@
 ## Week 2: Probability basics and generative modeling
 ### 2.1 The Generative Approach to Classification
 - Generative approach: Generative approach trong machine learning là một phương pháp giúp huấn luyện một **mô hình xác suất** để ước lượng xác suất của các lớp và sử dụng chúng để phân loại các dữ liệu mới.
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/89530538/233059347-b4b14ddd-0bfe-4dba-b6f6-231f91740269.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233060739-891dfe6f-631a-4da3-ba88-6edc6e9fa4e2.png">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233059540-891b06f7-5ac4-4614-a176-6cafbfeda084.png">
 
 
