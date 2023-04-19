@@ -1,5 +1,15 @@
 ## Week 2: Probability basics and generative modeling
+### 2.1 The Generative Approach to Classification
+- Generative approach: Generative approach trong machine learning là một phương pháp giúp huấn luyện một **mô hình xác suất** để ước lượng xác suất của các lớp và sử dụng chúng để phân loại các dữ liệu mới.
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/89530538/233059347-b4b14ddd-0bfe-4dba-b6f6-231f91740269.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233059540-891b06f7-5ac4-4614-a176-6cafbfeda084.png">
 
+
+### 2.2 Probability Review I: Probability Spaces, Events, and Conditioning
+### 2.3 Generative Modeling in One Dimension
+### 2.4 Probability Review II: Random Variables, Expectation, and Variance
+### 2.5 Probability Review III: Measuring Dependence
+### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
 
 ## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
 ## Week 4: Linear regression and logistic regression
