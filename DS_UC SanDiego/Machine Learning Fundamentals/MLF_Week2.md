@@ -65,10 +65,10 @@ Explaination:
 
 ### 2.4 Probability Review II: Random Variables, Expectation, and Variance
 #### Topic cover:
-#### Ví dụ 1: Random Variables
+#### Random Variables:
     - Random Variables: RVs là các biến số mà giá trị của chúng phụ thuộc vào kết quả của một thử nghiệm ngẫu nhiên. Ví dụ RVs có thể là 0, 1 hoặc 2, tùy thuộc vào số lần xuất hiện của mặt sấp khi tung một đồng xu đồng chất 2 lần
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233604316-4819247c-6d3b-4a0f-bc24-28a30aa878d3.png">
-#### Ví dụ 2: Expected value
+#### Expected value:
     - Expected value là E(X), trong đó X là một biến ngẫu nhiên. 
     - Property of E(X): Các tính chất quan trọng của expected value bao gồm: 
         - Tính tuyến tính: E(aX + bY) = aE(X) + bE(Y), với a và b là các hằng số và X, Y là các biến ngẫu nhiên.
