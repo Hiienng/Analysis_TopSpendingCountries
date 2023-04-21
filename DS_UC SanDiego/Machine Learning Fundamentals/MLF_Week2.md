@@ -87,6 +87,13 @@ Explaination:
 
 
 ### 2.5 Probability Review III: Measuring Dependence
+#### Topic cover:
+    - When are two random variable independent?
+    - Qualitatively assessing dependence
+    - Quantifying dependence: covarience and correlation
+#### Details:
+- Random variable X and Y independent if `Pr(X = x, Y = y) =  Pr(X = x)Pr(Y = y)`
+    
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
 
 ## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
