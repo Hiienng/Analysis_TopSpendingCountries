@@ -26,25 +26,25 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233095189-481c9ac3-0528-4f87-ab2b-a9159f1203c2.png">
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233100584-2c8dff55-8b93-4c4e-a977-56eace78bfaf.png">
-- Explanation: Đề bài yêu cầu tìm sác xuất lấy được túi Redx3 trong đó có 1 túi 3 banh đỏ (Redx3) và 2 túi loại 1 xanh dương, 1 đỏ, 1 xanh lá(non-Redx3). Biết trước rằng khi lấy 1 trái từ 1 túi random, sau đó bỏ trái banh ấy vào lại túi rồi lấy một quả random ra, và hai quả này đều màu đỏ.
-    - Giải đề bài theo phương pháp Baye's Rules
-        - A: Sự kiện lấy được túi Redx3
-        - B: Sự kiện hai quả banh đỏ được lấy ra
-        - Xác suất lấy được túi Redx3: P(A\cup B) = 1/3
-        - Xác suất tất cả sự kiện : P(All) = P(Redx3, 2 Red balls) + P(non-Redx3, 2 Red balls) = 1/3 x 1 + 2/3 x (1/3 x 1/3) = 0.818
-    - Giải theo cách khác
-        - Let the event of red balls be E.
-            - The probability of 2 red balls from first non-redx3 bag is  1/3 x 1/3 = 1/9
-            - The probability of 2 red balls from second non-redx3 bag is 1/9 
-            - The probability of 2 red balls from Redx3 bag is 1 
-        - The bag with the 3 red balls is (1/3 x 1) / (1/3 x 1/9 + 1/3 x 1/9 + 1/3 x1) = 0.818
+- Explanation: Đề bài yêu cầu tìm sác xuất lấy được túi Redx3 trong đó có 1 túi 3 banh đỏ (Redx3) và 2 túi loại 1 xanh dương, 1 đỏ, 1 xanh lá(non-Redx3). Biết trước rằng khi lấy 1 trái từ 1 túi random, sau đó bỏ trái banh ấy vào lại túi rồi lấy một quả random ra, và hai quả này đều màu đỏ. \\
+    - Giải đề bài theo phương pháp Baye's Rules \\
+        - A: Sự kiện lấy được túi Redx3 \\
+        - B: Sự kiện hai quả banh đỏ được lấy ra \\
+        - Xác suất lấy được túi Redx3: P(A\cup B) = 1/3 \\
+        - Xác suất tất cả sự kiện : P(All) = P(Redx3, 2 Red balls) + P(non-Redx3, 2 Red balls) = 1/3 x 1 + 2/3 x (1/3 x 1/3) = 0.818 \\
+    - Giải theo cách khác \\
+        - Let the event of red balls be E. \\
+            - The probability of 2 red balls from first non-redx3 bag is  1/3 x 1/3 = 1/9 \\
+            - The probability of 2 red balls from second non-redx3 bag is 1/9 \\
+            - The probability of 2 red balls from Redx3 bag is 1 \\
+        - The bag with the 3 red balls is (1/3 x 1) / (1/3 x 1/9 + 1/3 x 1/9 + 1/3 x1) = 0.818 \\
 
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233081653-aacecbd0-16f4-446e-8e4c-33f5047eca2c.png">
-- Explanation: 
-// - If the first roll is a 6, then there are 6 possible outcomes for that roll (namely, rolling a 1, 2, 3, 4, 5, or 6). We need to determine the number of those outcomes that result in a sum of 10 when the second die is rolled.
-// - Out of the six possible outcomes for the first roll (which is a 6), only one of them results in a sum of 10 when the second die is rolled (namely, rolling a 4). Therefore, the probability of rolling a sum of 10 given that the first roll is a 6 is:
-// - P(sum is 10 | first roll is 6) = 1/6
+- Explanation: \\
+    - If the first roll is a 6, then there are 6 possible outcomes for that roll (namely, rolling a 1, 2, 3, 4, 5, or 6). We need to determine the number of those outcomes that result in a sum of 10 when the second die is rolled. \\
+    - Out of the six possible outcomes for the first roll (which is a 6), only one of them results in a sum of 10 when the second die is rolled (namely, rolling a 4). Therefore, the probability of rolling a sum of 10 given that the first roll is a 6 is: \\
+    - P(sum is 10 | first roll is 6) = 1/6
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233083367-09c7fc0d-7504-4f31-bd67-4391714a50fa.png">
 
 ### 2.3 Generative Modeling in One Dimension
@@ -54,10 +54,10 @@
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233599922-e6def5e2-ddd0-4e29-9c2b-213130e222cd.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600200-43f02cd7-b644-4a84-bc72-9b155e6e5dd5.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600692-cb30fc24-3c77-49b7-bfed-7ac0eb525ff3.png">
-Explaination:
-// - Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1
-// - Nếu nồng độ cồn = 11 => Bình rượu có khả năng là loại rượu 2
-// - Nếu nồng độ cồn = 12.5 => Bình rượu có thể là 2 hoặc 3 dựa trên P (density). Tuy nhiên trong 3 bình thì tỷ lệ xác suất của Loại 2 cao hơn nên dự đoán theo phương pháp generative sẽ ra loại 2
+Explaination: \\
+    - Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1 \\
+    - Nếu nồng độ cồn = 11 => Bình rượu có khả năng là loại rượu 2 \\
+    - Nếu nồng độ cồn = 12.5 => Bình rượu có thể là 2 hoặc 3 dựa trên P (density). Tuy nhiên trong 3 bình thì tỷ lệ xác suất của Loại 2 cao hơn nên dự đoán theo phương pháp generative sẽ ra loại 2 \\
  
 - TEST ERROR
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233601751-47a5f740-0803-4176-82b8-b1a9f20bf679.png">
