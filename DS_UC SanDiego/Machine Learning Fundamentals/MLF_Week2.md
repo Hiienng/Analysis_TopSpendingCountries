@@ -54,20 +54,23 @@
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233599922-e6def5e2-ddd0-4e29-9c2b-213130e222cd.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600200-43f02cd7-b644-4a84-bc72-9b155e6e5dd5.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600692-cb30fc24-3c77-49b7-bfed-7ac0eb525ff3.png">
-- Explaination:
-    - Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1
-    - Nếu nồng độ cồn = 11 => Bình rượu có khả năng là loại rượu 2
-    - Nếu nồng độ cồn = 12.5 => Bình rượu có thể là 2 hoặc 3 dựa trên P (density). Tuy nhiên trong 3 bình thì tỷ lệ xác suất của Loại 2 cao hơn nên dự đoán theo phương pháp generative sẽ ra loại 2
+Explaination:
+- Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1
+- Nếu nồng độ cồn = 11 => Bình rượu có khả năng là loại rượu 2
+- Nếu nồng độ cồn = 12.5 => Bình rượu có thể là 2 hoặc 3 dựa trên P (density). Tuy nhiên trong 3 bình thì tỷ lệ xác suất của Loại 2 cao hơn nên dự đoán theo phương pháp generative sẽ ra loại 2
  
-- TEST ERROR
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233601751-47a5f740-0803-4176-82b8-b1a9f20bf679.png">
+TEST ERROR
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233601751-47a5f740-0803-4176-82b8-b1a9f20bf679.png">
 MODEL này hiện tại chỉ dựa trên một feature là Nồng độ cồn, do đó ta thấy được kết quả lỗi khá lớn như trên. Khi mô hình được chạy áp dụng với nhiều feature hơn sẽ giúp kết quả của mô hình chính xác hơn
 
 ### 2.4 Probability Review II: Random Variables, Expectation, and Variance
 - Random Variables: RVs là các biến số mà giá trị của chúng phụ thuộc vào kết quả của một thử nghiệm ngẫu nhiên. Ví dụ RVs có thể là 0, 1 hoặc 2, tùy thuộc vào số lần xuất hiện của mặt sấp khi tung một đồng xu đồng chất 2 lần
 Ví dụ 1:
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233604316-4819247c-6d3b-4a0f-bc24-28a30aa878d3.png">
-Ví dụ 2:
+- Expectation, and Variance
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233605374-a8099789-d075-470b-b9de-9fee6f20de6a.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233606213-93b9e3cb-8ae5-4108-86e3-859e3c10f9d8.png">
+
 
 
 ### 2.5 Probability Review III: Measuring Dependence
