@@ -100,12 +100,12 @@ Explaination:
 - Example 2: Toss a coin 10 times with X = # Heads and Y = Value of Last toss, then toss 10 time and there are 10 Heads but the last toss is Tails: `Pr(X = 10, Y = Tails) = 0` while `Pr(X = 10) = 1/2^10` and `Pr(Y = Tails) = 1/2`
 - Example 3: X, Y in range {-1,0,1} and the probability is:
     
-    | Y |   |   |   |
-    |  | -1 | 0 | 1 |
-    |----|---|---|
-    | -1 | .4  | .16  | .24 |
-    | 0  |  .05 | .02  | .03  |
-    | 1  |  .05 | .02  | .03  |
+| Y |   |   |   |
+|   | -1 | 0 | 1 |
+|-------|-------|-------|-------|
+| -1 | .4  | .16  | .24 |
+| 0 | .05 | .02 | .03 |
+| 1 | .05 | .02 | .03 |
 
 
     
