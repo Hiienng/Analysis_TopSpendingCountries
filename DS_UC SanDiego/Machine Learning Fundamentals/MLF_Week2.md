@@ -84,6 +84,7 @@ Explaination:
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233611616-ac8b5797-a8f9-466f-b32d-5d76a3831fbe.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233611875-6e725101-719f-4661-ad3b-0cad57e5fe6f.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612428-262b7c5f-4703-440f-b105-01a2f754a28b.png">
+
 #### Property of Variance
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612082-e08834df-0f37-447a-a7c2-2bcad19d4e26.png">
 
