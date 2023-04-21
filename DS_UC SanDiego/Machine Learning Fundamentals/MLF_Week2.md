@@ -45,10 +45,31 @@
     - If the first roll is a 6, then there are 6 possible outcomes for that roll (namely, rolling a 1, 2, 3, 4, 5, or 6). We need to determine the number of those outcomes that result in a sum of 10 when the second die is rolled.
     - Out of the six possible outcomes for the first roll (which is a 6), only one of them results in a sum of 10 when the second die is rolled (namely, rolling a 4). Therefore, the probability of rolling a sum of 10 given that the first roll is a 6 is:
     - P(sum is 10 | first roll is 6) = 1/6
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233083367-09c7fc0d-7504-4f31-bd67-4391714a50fa.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233083367-09c7fc0d-7504-4f31-bd67-4391714a50fa.png">
 
 ### 2.3 Generative Modeling in One Dimension
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233599092-abe1f915-7585-4b3c-83f7-d58ce2f99faa.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233599642-d124cdfe-2c52-4e78-8394-de22bd68c264.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233599922-e6def5e2-ddd0-4e29-9c2b-213130e222cd.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600200-43f02cd7-b644-4a84-bc72-9b155e6e5dd5.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600692-cb30fc24-3c77-49b7-bfed-7ac0eb525ff3.png">
+- Explaination:
+    - Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1
+    - Nếu nồng độ cồn = 11 => Bình rượu có khả năng là loại rượu 2
+    - Nếu nồng độ cồn = 12.5 => Bình rượu có thể là 2 hoặc 3 dựa trên P (density). Tuy nhiên trong 3 bình thì tỷ lệ xác suất của Loại 2 cao hơn nên dự đoán theo phương pháp generative sẽ ra loại 2
+ 
+- TEST ERROR
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233601751-47a5f740-0803-4176-82b8-b1a9f20bf679.png">
+MODEL này hiện tại chỉ dựa trên một feature là Nồng độ cồn, do đó ta thấy được kết quả lỗi khá lớn như trên. Khi mô hình được chạy áp dụng với nhiều feature hơn sẽ giúp kết quả của mô hình chính xác hơn
+
 ### 2.4 Probability Review II: Random Variables, Expectation, and Variance
+- Random Variables: RVs là các biến số mà giá trị của chúng phụ thuộc vào kết quả của một thử nghiệm ngẫu nhiên. Ví dụ RVs có thể là 0, 1 hoặc 2, tùy thuộc vào số lần xuất hiện của mặt sấp khi tung một đồng xu đồng chất 2 lần
+Ví dụ 1:
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233604316-4819247c-6d3b-4a0f-bc24-28a30aa878d3.png">
+Ví dụ 2:
+
+
 ### 2.5 Probability Review III: Measuring Dependence
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
 
