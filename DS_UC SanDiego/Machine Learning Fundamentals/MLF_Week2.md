@@ -111,10 +111,22 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 
 #### Corelation:
 - Positive Corelation: H (Height) and W (Weight) `Pr(H,W) > Pr(H) Pr(W)`
-    <img width="256" alt="image" src="https://user-images.githubusercontent.com/89530538/233621793-89abdf38-5c2f-41c3-a69e-ddd44e5d9cb1.png">
-
 - Negative Corelation: `Pr(A,B) < Pr(A) Pr(B)`
-    <img width="522" alt="image" src="https://user-images.githubusercontent.com/89530538/233622314-cb4d75e9-489d-42dd-a04c-49cb1b756971.png">
+    
+<img width="522" alt="image" src="https://user-images.githubusercontent.com/89530538/233622314-cb4d75e9-489d-42dd-a04c-49cb1b756971.png">
+
+#### Corelation:
+<img width="1198" alt="image" src="https://user-images.githubusercontent.com/89530538/233623038-382187c0-1180-46ae-965f-1b8de51837b2.png">
+<img width="1019" alt="image" src="https://user-images.githubusercontent.com/89530538/233623093-b0b0c601-7912-463b-807e-ccff959dd8b7.png">
+<img width="1061" alt="image" src="https://user-images.githubusercontent.com/89530538/233623311-72855cdf-3f3c-4d34-acb5-68a9284a4e5c.png">
+
+- Example:
+|   | Y | -3 | 3 |
+|-------|-------|-------|-------|
+| X | -1 | 1/6 | 1/3 |
+|   | 1 | 1/3 | 1/6 |
+    
+<img width="689" alt="image" src="https://user-images.githubusercontent.com/89530538/233624367-dee8dc8e-b806-483c-bbb0-dbd0cb770894.png">
 
     
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
