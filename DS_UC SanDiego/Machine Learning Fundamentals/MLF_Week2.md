@@ -96,6 +96,7 @@ Explaination:
     - Quantifying dependence: covarience and correlation
 #### Details:
 - Random variable X and Y independent if `Pr(X = x, Y = y) =  Pr(X = x)Pr(Y = y)`
+- Example: Pick out a card with X = suit and Y = number, then `Pr(X = heart, Y = 6) = 1/52` equal `Pr(X = heart) = 1/4` x `Pr(Y = 6) = 1/13` so X and Y is 
     
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
 
