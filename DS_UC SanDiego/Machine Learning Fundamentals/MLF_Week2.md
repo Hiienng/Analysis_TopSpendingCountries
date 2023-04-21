@@ -26,8 +26,8 @@
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233095189-481c9ac3-0528-4f87-ab2b-a9159f1203c2.png">
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/89530538/233100584-2c8dff55-8b93-4c4e-a977-56eace78bfaf.png">
-- Explanation: Đề bài yêu cầu tìm sác xuất lấy được túi Redx3 trong đó có 1 túi 3 banh đỏ (Redx3) và 2 túi loại 1 xanh dương, 1 đỏ, 1 xanh lá(non-Redx3). Biết trước rằng khi lấy 1 trái từ 1 túi random, sau đó bỏ trái banh ấy vào lại túi rồi lấy một quả random ra, và hai quả này đều màu đỏ. \\
-    - Giải đề bài theo phương pháp Baye's Rules \\
+- Explanation: Đề bài yêu cầu tìm sác xuất lấy được túi Redx3 trong đó có 1 túi 3 banh đỏ (Redx3) và 2 túi loại 1 xanh dương, 1 đỏ, 1 xanh lá(non-Redx3). Biết trước rằng khi lấy 1 trái từ 1 túi random, sau đó bỏ trái banh ấy vào lại túi rồi lấy một quả random ra, và hai quả này đều màu đỏ.<space><space>
+    - Giải đề bài theo phương pháp Baye's Rules.  
         - A: Sự kiện lấy được túi Redx3 \\
         - B: Sự kiện hai quả banh đỏ được lấy ra \\
         - Xác suất lấy được túi Redx3: P(A\cup B) = 1/3 \\
