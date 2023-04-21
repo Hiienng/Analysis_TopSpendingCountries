@@ -64,25 +64,25 @@ Explaination:
 - MODEL này hiện tại chỉ dựa trên một feature là Nồng độ cồn, do đó ta thấy được kết quả lỗi khá lớn như trên. Khi mô hình được chạy áp dụng với nhiều feature hơn sẽ giúp kết quả của mô hình chính xác hơn
 
 ### 2.4 Probability Review II: Random Variables, Expectation, and Variance
-- Random Variables: RVs là các biến số mà giá trị của chúng phụ thuộc vào kết quả của một thử nghiệm ngẫu nhiên. Ví dụ RVs có thể là 0, 1 hoặc 2, tùy thuộc vào số lần xuất hiện của mặt sấp khi tung một đồng xu đồng chất 2 lần
-- Expected value là E(X), trong đó X là một biến ngẫu nhiên. 
-- Property of E(X): Các tính chất quan trọng của expected value bao gồm: 
-    - Tính tuyến tính: E(aX + bY) = aE(X) + bE(Y), với a và b là các hằng số và X, Y là các biến ngẫu nhiên.
-    - Phép chuyển đổi đổi biến số: Nếu Y = g(X) là một hàm số của X, thì E(Y) = E(g(X)) = ∑g(x)*P(X=x), với x là các giá trị có thể của X và P(X=x) là xác suất tương ứng. 
-    - Tính không âm: E(X) >= 0, với X là một biến ngẫu nhiên không âm. 
-    - Tính đồng nhất: Nếu X là một biến ngẫu nhiên có cùng phân phối với Y, tức là P(X=x) = P(Y=x) cho mọi giá trị có thể của X và Y, thì E(X) = E(Y).
-    - Tính đồng nhất của trung bình: Nếu X1, X2, ..., Xn là các biến ngẫu nhiên độc lập và có cùng phân phối, thì E(X1 + X2 + ... + Xn) = nE(X1).
-- Ví dụ 1:
+#### Topic cover:
+#### Ví dụ 1: Random Variables
+    - Random Variables: RVs là các biến số mà giá trị của chúng phụ thuộc vào kết quả của một thử nghiệm ngẫu nhiên. Ví dụ RVs có thể là 0, 1 hoặc 2, tùy thuộc vào số lần xuất hiện của mặt sấp khi tung một đồng xu đồng chất 2 lần
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233604316-4819247c-6d3b-4a0f-bc24-28a30aa878d3.png">
-- Ví dụ 2:
+#### Ví dụ 2: Expected value
+    - Expected value là E(X), trong đó X là một biến ngẫu nhiên. 
+    - Property of E(X): Các tính chất quan trọng của expected value bao gồm: 
+        - Tính tuyến tính: E(aX + bY) = aE(X) + bE(Y), với a và b là các hằng số và X, Y là các biến ngẫu nhiên.
+        - Phép chuyển đổi đổi biến số: Nếu Y = g(X) là một hàm số của X, thì E(Y) = E(g(X)) = ∑g(x)*P(X=x), với x là các giá trị có thể của X và P(X=x) là xác suất tương ứng. 
+        - Tính không âm: E(X) >= 0, với X là một biến ngẫu nhiên không âm. 
+        - Tính đồng nhất: Nếu X là một biến ngẫu nhiên có cùng phân phối với Y, tức là P(X=x) = P(Y=x) cho mọi giá trị có thể của X và Y, thì E(X) = E(Y).
+        - Tính đồng nhất của trung bình: Nếu X1, X2, ..., Xn là các biến ngẫu nhiên độc lập và có cùng phân phối, thì E(X1 + X2 + ... + Xn) = nE(X1).
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233605374-a8099789-d075-470b-b9de-9fee6f20de6a.png">
-- Variance:
+#### Variance:
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233606213-93b9e3cb-8ae5-4108-86e3-859e3c10f9d8.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233611616-ac8b5797-a8f9-466f-b32d-5d76a3831fbe.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233611875-6e725101-719f-4661-ad3b-0cad57e5fe6f.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612428-262b7c5f-4703-440f-b105-01a2f754a28b.png">
-
-- Property of Variance
+#### Property of Variance
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612082-e08834df-0f37-447a-a7c2-2bcad19d4e26.png">
 
 
