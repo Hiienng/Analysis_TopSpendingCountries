@@ -54,8 +54,8 @@
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233599922-e6def5e2-ddd0-4e29-9c2b-213130e222cd.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600200-43f02cd7-b644-4a84-bc72-9b155e6e5dd5.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233600692-cb30fc24-3c77-49b7-bfed-7ac0eb525ff3.png">
-Explaination: \\
-    - Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1 \\
+Explaination:   
+    - Nếu nồng độ cồn = 15 => Bình rượu có khả năng là loại rượu 1   
     - Nếu nồng độ cồn = 11 => Bình rượu có khả năng là loại rượu 2 \\
     - Nếu nồng độ cồn = 12.5 => Bình rượu có thể là 2 hoặc 3 dựa trên P (density). Tuy nhiên trong 3 bình thì tỷ lệ xác suất của Loại 2 cao hơn nên dự đoán theo phương pháp generative sẽ ra loại 2 \\
  
