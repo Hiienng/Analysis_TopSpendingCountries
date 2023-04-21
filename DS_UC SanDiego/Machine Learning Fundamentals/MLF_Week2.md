@@ -94,18 +94,26 @@ Explaination:
     - When are two random variable independent?
     - Qualitatively assessing dependence
     - Quantifying dependence: covarience and correlation
-#### Details:
+
+#### Dependence and Independence:
 - Random variable X and Y independent if `Pr(X = x, Y = y) =  Pr(X = x)Pr(Y = y)`
 - Example 1: Pick out a card with X = suit and Y = number, then `Pr(X = heart, Y = 6) = 1/52` equal `Pr(X = heart) = 1/4` x `Pr(Y = 6) = 1/13` so X and Y is independent
 - Example 2: Toss a coin 10 times with X = # Heads and Y = Value of Last toss, then toss 10 time and there are 10 Heads but the last toss is Tails: `Pr(X = 10, Y = Tails) = 0` while `Pr(X = 10) = 1/2^10` and `Pr(Y = Tails) = 1/2`
 - Example 3: X, Y in range {-1,0,1} and the probability is:
-    
-|   | Y | -1 | 0 | 1 |
-|-------|-------|-------|-------|-------|
-| X | -1 | .4  | .16  | .24 |
-|   | 0 | .05 | .02 | .03 |
-|   | 1 | .05 | .02 | .03 |
 
+            |   | Y | -1 | 0 | 1 |
+            |-------|-------|-------|-------|-------|
+            | X | -1 | .4  | .16  | .24 |
+            |   | 0 | .05 | .02 | .03 |
+            |   | 1 | .05 | .02 | .03 |
+
+In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y = 1) = 0.3` => X and Y independent
+
+#### Corelation:
+- Positive Corelation: H (Height) and W (Weight) :  `Pr(H,W) > Pr(H) Pr(W)`
+<img width="256" alt="image" src="https://user-images.githubusercontent.com/89530538/233621793-89abdf38-5c2f-41c3-a69e-ddd44e5d9cb1.png">
+- Negative Corelation: `Pr(A,B) < Pr(A) Pr(B)`
+<img width="522" alt="image" src="https://user-images.githubusercontent.com/89530538/233622314-cb4d75e9-489d-42dd-a04c-49cb1b756971.png">
 
     
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
