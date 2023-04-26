@@ -10,6 +10,7 @@ If the dot product is zero => orthogonal.
 - (1,3,0,1) . (-1,-3,0,-1) = 1(-1) + 3(-3) + 0(0) + 1(-1) = -12 
 - (1,3,0,1) . (1,3,0,-10) = 1(1) + 3(3) + 0(0) + 1(-10) = 0 => orthogonal
 #### Problem 5:
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/234463215-abdc86cc-2279-464f-a48e-712ca1ec246c.png">
 
 
 
