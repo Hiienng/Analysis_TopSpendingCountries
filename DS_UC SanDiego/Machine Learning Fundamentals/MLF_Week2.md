@@ -135,13 +135,4 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340975-72a07b08-fcab-4148-b843-97fdfd00a592.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235341102-fc306712-cd04-4106-9f4f-f2c6d2c219b9.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235342171-d8a111cb-6424-450e-940a-22bb8d322721.png">
-
-    
-## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
-## Week 4: Linear regression and logistic regression
-## Week 5: Optimization
-## Week 6: Support vector machines
-## Week 7: Beyond linear prediction: kernel methods, decision trees, boosting, random forests
-## Week 8: Clustering
-## Week 9: Informative projections
-## Week 10: Deep learning
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235342566-dcf9a64e-4222-4155-bd15-360bedcd1836.png">
