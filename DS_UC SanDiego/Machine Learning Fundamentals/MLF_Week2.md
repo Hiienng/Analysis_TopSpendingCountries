@@ -134,5 +134,7 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340844-72d2a9f9-61f6-46fd-bc96-66eb6cdecc5e.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340975-72a07b08-fcab-4148-b843-97fdfd00a592.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235341102-fc306712-cd04-4106-9f4f-f2c6d2c219b9.png">
+- The denominator 1/(2π|Σ|½) is to normalizes the function in order to integrate to 1
+- 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235342171-d8a111cb-6424-450e-940a-22bb8d322721.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235342566-dcf9a64e-4222-4155-bd15-360bedcd1836.png">
