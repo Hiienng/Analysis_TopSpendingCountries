@@ -86,7 +86,7 @@ Explaination:
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612428-262b7c5f-4703-440f-b105-01a2f754a28b.png">
 
 #### Property of Variance
-    <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612082-e08834df-0f37-447a-a7c2-2bcad19d4e26.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612082-e08834df-0f37-447a-a7c2-2bcad19d4e26.png">
 
 
 ### 2.5 Probability Review III: Measuring Dependence
