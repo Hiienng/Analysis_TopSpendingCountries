@@ -200,7 +200,7 @@ Distance from 7 to 7:  5223403.0
     print("- The test image:", vis_image(0, "test"))
     print("The corresponding nearest neighbor image:", vis_image(find_NN(test_data[0,]), "train"))
 
-### 3.Error rate
+### 3. Error rate
 
     ## Predict on each test data point (and time it!)
     t_before = time.time()
