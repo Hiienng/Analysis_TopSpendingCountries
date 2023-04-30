@@ -132,9 +132,12 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
     
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
 - Với 2 dimension, error rate của mô hình được cải thiện từ 29% xuống còn 8%
-<img width="742" alt="image" src="https://user-images.githubusercontent.com/89530538/235339713-58db12f5-d9df-43e7-ba00-8c0ffc1b3c14.png">
-<img width="670" alt="image" src="https://user-images.githubusercontent.com/89530538/235340844-72d2a9f9-61f6-46fd-bc96-66eb6cdecc5e.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235339713-58db12f5-d9df-43e7-ba00-8c0ffc1b3c14.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340844-72d2a9f9-61f6-46fd-bc96-66eb6cdecc5e.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340975-72a07b08-fcab-4148-b843-97fdfd00a592.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235341102-fc306712-cd04-4106-9f4f-f2c6d2c219b9.png">
 
+    
 ## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
 ## Week 4: Linear regression and logistic regression
 ## Week 5: Optimization
