@@ -112,12 +112,11 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 #### Corelation:
 - Positive Corelation: H (Height) and W (Weight) `Pr(H,W) > Pr(H) Pr(W)`
 - Negative Corelation: `Pr(A,B) < Pr(A) Pr(B)`
-  <img width="300" alt="image" src="https://user-images.githubusercontent.com/89530538/235341956-158d7505-f43a-4499-8d02-58a9e0a07a8f.png">
-                                       
+                                     
 #### Corelation:
-<img width="1198" alt="image" src="https://user-images.githubusercontent.com/89530538/233623038-382187c0-1180-46ae-965f-1b8de51837b2.png">
-<img width="1019" alt="image" src="https://user-images.githubusercontent.com/89530538/233623093-b0b0c601-7912-463b-807e-ccff959dd8b7.png">
-<img width="1061" alt="image" src="https://user-images.githubusercontent.com/89530538/233623311-72855cdf-3f3c-4d34-acb5-68a9284a4e5c.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/89530538/235342043-4e6b63fa-58b2-4b9b-b8c7-9c95d8fb3aa0.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233623093-b0b0c601-7912-463b-807e-ccff959dd8b7.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233623311-72855cdf-3f3c-4d34-acb5-68a9284a4e5c.png">
 
 - Example:
  
