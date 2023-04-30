@@ -121,6 +121,7 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 <img width="1061" alt="image" src="https://user-images.githubusercontent.com/89530538/233623311-72855cdf-3f3c-4d34-acb5-68a9284a4e5c.png">
 
 - Example:
+ 
 |   | Y | -3 | 3 |
 |-------|-------|-------|-------|
 | X | -1 | 1/6 | 1/3 |
@@ -130,6 +131,9 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 
     
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
+- Với 2 dimension, error rate của mô hình được cải thiện từ 29% xuống còn 8%
+<img width="742" alt="image" src="https://user-images.githubusercontent.com/89530538/235339713-58db12f5-d9df-43e7-ba00-8c0ffc1b3c14.png">
+<img width="670" alt="image" src="https://user-images.githubusercontent.com/89530538/235340844-72d2a9f9-61f6-46fd-bc96-66eb6cdecc5e.png">
 
 ## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
 ## Week 4: Linear regression and logistic regression
