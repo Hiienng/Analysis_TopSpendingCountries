@@ -16,14 +16,14 @@
 #### Problem 1:
 Consider the following simple data set of four points : (1,1) (1,3) (4,4) (4,6). 
 - Suppose you had to predict y without knowledge of x. What value would you predict?
-=> The four y values in the data set are 1, 3, 4, and 6. The average of these values is: (1 + 3 + 4 + 6) / 4 = 14 / 4 = 3.5
+- => The four y values in the data set are 1, 3, 4, and 6. The average of these values is: (1 + 3 + 4 + 6) / 4 = 14 / 4 = 3.5
 - what is the  (MSE) of your prediction, on the given four points?
-=> The actual y values in the data set are 1, 3, 4, and 6. The squared differences between each actual value and the predicted value of 3.5 are:
+- => The actual y values in the data set are 1, 3, 4, and 6. The squared differences between each actual value and the predicted value of 3.5 are:
     - (1 - 3.5)^2 = 6.25
     - (3 - 3.5)^2 = 0.25
     - (4 - 3.5)^2 = 0.25
     - (6 - 3.5)^2 = 6.25
     => y= 3.25
 - Now let's say you want to predict y based on x. Your initial choice of prediction rule is y = x. What is the MSE of the linear function y = x on the four given points
-=> 
+- => MSE = $(Y - (X - 1)^2) / 4 $
     
