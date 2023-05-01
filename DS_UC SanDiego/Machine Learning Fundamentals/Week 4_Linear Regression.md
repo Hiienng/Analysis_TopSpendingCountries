@@ -25,5 +25,5 @@ Consider the following simple data set of four points : (1,1) (1,3) (4,4) (4,6).
     - (6 - 3.5)^2 = 6.25
     - => y = $sum$ / 4= 3.25
 - Now let's say you want to predict y based on x. Your initial choice of prediction rule is y = x. What is the MSE of the linear function y = x on the four given points
-- => MSE = $(Y - (X - 1)^2) / 4 $
+- => MSE = $(Y - (X - 1)^2) / 4 $ = ((1-(1-1))^2 + (3 - (1 - 1))^2 + (4 - (4-1)^2)
     
