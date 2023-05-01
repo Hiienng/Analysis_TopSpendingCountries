@@ -26,6 +26,7 @@ Consider the following simple data set of four points : (1,1) (1,3) (4,4) (4,6).
     - => y = $sum$ / 4= 3.25
 - Now let's say you want to predict y based on x. Your initial choice of prediction rule is y = x. What is the MSE of the linear function y = x on the four given points
 - => MSE = $(Y - (X - 1)^2) / 4 $ = ( ((1-(1-1))^2 + (3 - (1 - 1))^2 + (4 - (4-1)^2) + (6 - (4-1))^2 )/ 4 = 2
-- 
+- Find the best prediction rule of the form y = ax + b. That is, you want to find the parameters  such that this rule has the smallest possible mean squared error on the four training points. What are a and b?
+- $ y = x + 1 $
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235406930-0cc54e38-81ec-44fc-b3a7-d98d715d353b.png">
 
