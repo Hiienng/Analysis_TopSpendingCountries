@@ -29,4 +29,6 @@ Consider the following simple data set of four points : (1,1) (1,3) (4,4) (4,6).
 - Find the best prediction rule of the form y = ax + b. That is, you want to find the parameters  such that this rule has the smallest possible mean squared error on the four training points. What are a and b?
 - $y = x + 1$
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235406930-0cc54e38-81ec-44fc-b3a7-d98d715d353b.png">
+#### Problem 2:
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235407837-14c66756-dd83-49a1-b2a9-5bbf7510b195.png">
 
