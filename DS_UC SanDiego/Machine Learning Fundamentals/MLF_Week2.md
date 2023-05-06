@@ -86,7 +86,7 @@ Explaination:
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612428-262b7c5f-4703-440f-b105-01a2f754a28b.png">
 
 #### Property of Variance
-    <img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612082-e08834df-0f37-447a-a7c2-2bcad19d4e26.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233612082-e08834df-0f37-447a-a7c2-2bcad19d4e26.png">
 
 
 ### 2.5 Probability Review III: Measuring Dependence
@@ -112,15 +112,14 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 #### Corelation:
 - Positive Corelation: H (Height) and W (Weight) `Pr(H,W) > Pr(H) Pr(W)`
 - Negative Corelation: `Pr(A,B) < Pr(A) Pr(B)`
-    
-<img width="522" alt="image" src="https://user-images.githubusercontent.com/89530538/233622314-cb4d75e9-489d-42dd-a04c-49cb1b756971.png">
-
+                                     
 #### Corelation:
-<img width="1198" alt="image" src="https://user-images.githubusercontent.com/89530538/233623038-382187c0-1180-46ae-965f-1b8de51837b2.png">
-<img width="1019" alt="image" src="https://user-images.githubusercontent.com/89530538/233623093-b0b0c601-7912-463b-807e-ccff959dd8b7.png">
-<img width="1061" alt="image" src="https://user-images.githubusercontent.com/89530538/233623311-72855cdf-3f3c-4d34-acb5-68a9284a4e5c.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/89530538/235342043-4e6b63fa-58b2-4b9b-b8c7-9c95d8fb3aa0.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233623093-b0b0c601-7912-463b-807e-ccff959dd8b7.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/233623311-72855cdf-3f3c-4d34-acb5-68a9284a4e5c.png">
 
 - Example:
+ 
 |   | Y | -3 | 3 |
 |-------|-------|-------|-------|
 | X | -1 | 1/6 | 1/3 |
@@ -130,12 +129,12 @@ In this case, `Pr(X = -1, Y = 1) = .24`, `Pr(X = 1) = .05 + .02 + .03` , `Pr(Y =
 
     
 ### 2.6 Two Dimensional Generative Modeling with the Bivariate Gaussian
-
-## Week 3: Linear algebra basics, the multivariate Gaussian, and more generative modeling
-## Week 4: Linear regression and logistic regression
-## Week 5: Optimization
-## Week 6: Support vector machines
-## Week 7: Beyond linear prediction: kernel methods, decision trees, boosting, random forests
-## Week 8: Clustering
-## Week 9: Informative projections
-## Week 10: Deep learning
+- Với 2 dimension, error rate của mô hình được cải thiện từ 29% xuống còn 8%
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235339713-58db12f5-d9df-43e7-ba00-8c0ffc1b3c14.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340844-72d2a9f9-61f6-46fd-bc96-66eb6cdecc5e.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235340975-72a07b08-fcab-4148-b843-97fdfd00a592.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235341102-fc306712-cd04-4106-9f4f-f2c6d2c219b9.png">
+- The denominator 1/(2π|Σ|½) is to normalizes the function in order to integrate to 1
+- 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235342171-d8a111cb-6424-450e-940a-22bb8d322721.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/89530538/235342566-dcf9a64e-4222-4155-bd15-360bedcd1836.png">
