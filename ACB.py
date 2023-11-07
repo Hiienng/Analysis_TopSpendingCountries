@@ -82,7 +82,6 @@ Update_inst.loc[3, ["Off_1M"]] = offline_values_1M+ surplus_values[2]
 Update_inst.loc[3, ["Off_2M","Off_3M", "Off_6M", "Off_12M","Off_13M","Off_18M", "Off_24M", "Off_36M"]] = offline_values+ surplus_values[2]
 Update_inst.loc[3, ["Onl_1M","Onl_3M", "Onl_6M", "Onl_12M","Onl_13M","Onl_18M", "Onl_24M", "Onl_36M"]] = online_values+ surplus_values[2]
 
-#close driver
-driver.close()
+#driver.close()
 
-# print(type(surplus_values))
+
